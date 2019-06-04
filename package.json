@@ -1,0 +1,31 @@
+{
+  "name": "clear-sky",
+  "version": "1.0.0",
+  "description": "Nodejs auto weather",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivySrivastava/clearSky.git"
+  },
+  "author": "Divy Srivastava",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DivySrivastava/clearSky/issues"
+  },
+  "homepage": "https://github.com/DivySrivastava/clearSky#readme",
+  "dependencies": {
+    "express-ip": "^1.0.3",
+    "ipware": "^2.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "weather",
+    "ip",
+    "address"
+  ]
+}
