@@ -28,7 +28,7 @@ app.get('/', function (req, res) {
     const ipInfo = req.ipInfo;
     console.log(ipInfo);
     
-    request(`http://ip-api.com/json/${ip.clientIp}`, function (error, response, body) {
+    request(`http://ip-api.com/json/${ipInfo.clientIp}`, function (error, response, body) {
       response = JSON.parse(response["body"]);
       console.log(response);
       
