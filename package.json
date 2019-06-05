@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/DivySrivastava/clearSky#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "express-ip": "^1.0.3",
     "ipware": "^2.0.0",
+    "mustache": "^3.0.1",
     "request": "^2.88.0"
   },
   "devDependencies": {},
